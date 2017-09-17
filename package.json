@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhron Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "@pioug/MidiConvert": "^3.0.0-beta.9",
+    "express": "^4.15.4",
+    "express-log-routes": "^1.0.0",
+    "midi-file-parser": "^1.0.0",
+    "midiconvert": "^0.4.1",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "util": "^0.10.3",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
