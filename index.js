@@ -5,8 +5,7 @@ var routes = require('./routes'); //our routes
 
 var morgan = require('morgan')
 
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var xhr = new XMLHttpRequest();
+var port=Number(process.env.PORT || 3000);
 
 //For logging
 app.use(morgan('tiny'))
@@ -15,7 +14,7 @@ app.use(morgan('tiny'))
 app.use('/', routes); 
 
 //Server
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('App listening on port 3000');
 });
 
